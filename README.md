@@ -1,1 +1,1 @@
-## Impliment the ReaxFF-nn in GULP package
+## Impliment the ReaxFF-nn in the GULP package
