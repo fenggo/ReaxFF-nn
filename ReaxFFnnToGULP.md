@@ -476,26 +476,6 @@ Insert the following code in boword.F90 after line 7000:
   lwordok = .true.
   return
 
- !
-!***********************************************************
-! Parameters for the neural networks of Vdw Taper Function *
-!***********************************************************
-
-! Feng G.
-900 continue
-!
-!  Neural network layers for Bond-Energy calculations
-!
-  lreaxFFNNVdw = .true.
-  if (nfloat.ge.2) then
-    vwn = nint(floats(1))
-    vwh = nint(floats(2))
-  else
-    call outerror('Incorrect belayer input',iline)
-    call stopnow('boword')
-  endif
-  lwordok = .true.
-  return
 
 910 continue
   lbocorr1 = .false.
