@@ -3,9 +3,9 @@
 #
 # 1. Feng Guo et al., Computational Materials Science 172 (2020) 109393
 # 2. Feng Guo et al., Physical Chemistry Chemical Physics, 23, 19457-19464, 2021.
-# 3. Feng Guo et al., ReaxFF-nn: A Reactive Machine Learning Potential
-#                    in GULP and Applications in the Thermal Conductivity 
-#                    Calculation of Carbon Nanostructures (submitted to npj Computational Materials)
+# 3. Feng Guo et al., ReaxFF-nn: A Reactive Machine Learning Potential in GULP and
+#       Applications in the Thermal Conductivity Calculation of Carbon Nanostructures
+#                                          (submitted to npj Computational Materials)
 #
 # Note: this library is trained for sp2 carbon.
 #
