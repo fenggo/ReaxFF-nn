@@ -6,4 +6,5 @@ ReaxFF-nn stands for Reactive Force Field (ReaxFF) with neural network bond-orde
 
 ## Refference
 
-ReaxFF-nn: A Reactive Machine Learning Potential in GULP and the Applications in Low Dimensional Carbon Structures, Feng Guo et al. (In preparation).
+ReaxFF-nn: ReaxFF-nn: A Reactive Machine Learning Potential in GULP and the Applications in the Thermal Conductivity Calculation of Carbon
+Nanostructures, Feng Guo et al. (In preparation).
