@@ -1,4 +1,4 @@
-## Implement the ReaxFF-nn machine learning potenitial to the General Utility Lattice Program
+## Implement the ReaxFF-nn machine learning potenitial to the LAMMPS Program
 insert the following code in reaxff_types.h between line 170-184
 ```c++
 struct network_parameters{
