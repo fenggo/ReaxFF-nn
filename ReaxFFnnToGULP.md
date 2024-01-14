@@ -1207,4 +1207,4 @@ Insert the following code in nullpointer.F90 after line 1642:
 
 ```
 
-
+Feel free to contact gfeng.alan@foxmail.com if you have problems in the impliment the ReaxFF-nn to GULP.
