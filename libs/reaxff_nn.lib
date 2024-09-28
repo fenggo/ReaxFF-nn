@@ -9,7 +9,7 @@ reaxFFvdwcutoff       10.00000000
 reaxFFqcutoff         10.00000000
 #
 # Bond order threshold - check anglemin as this is cutof2 given in control file
-reaxFFtol          0.00010000  0.08551376 0.05000000
+reaxFFtol          0.00010000  0.08551376 
 #
 # Species independent parameters 
 #
