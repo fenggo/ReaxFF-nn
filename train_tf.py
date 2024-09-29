@@ -4,25 +4,23 @@ from irff.data.ColData import ColData
 
 getdata = ColData()
 
-dataset = {}
-strucs = [# 'gphit3',
-          'gp8',
-          'cnt4',
-          'cnt5',
-          'cnt6',
-          'gp4',#'gpp',
-          # 'cnt9',
-          'cnt8',
-          ]
+dataset = {'gp8':'data/gp8-0.traj',
+           'gp4':'data/gp4-0.traj',
+           'gpp':'data/gpp-0.traj',
+           'cnt4':'data/cnt4-0.traj',
+           'cnt5':'data/cnt5-0.traj',
+           'cnt6':'data/cnt6-0.traj',
+           'cnt8':'data/cnt8-0.traj' }
+# strucs = ['gp8','cnt4','cnt5','cnt6','gp4','cnt8']
 
 weight  = {'others':2.0}
 batchs  = {'others':800}
 batch   = 800
 
-for mol in strucs:
-    b = batchs[mol] if mol in batchs else batchs['others']
-    trajs = getdata(label=mol,batch=b)
-    dataset.update(trajs)
+# for mol in strucs:
+#     b = batchs[mol] if mol in batchs else batchs['others']
+#     trajs = getdata(label=mol,batch=b)
+#     dataset.update(trajs)
 
 
 clip = {'Desi':(100.0,725.0),
@@ -77,12 +75,7 @@ if __name__ == '__main__':
                     fixrcbo=False,lambda_bd=50000.0,
                     lambda_reg=0.001,
                     convergence=0.9999)
-#    rn.initialize()
-#    rn.session(learning_rate=0.0001, method='AdamOptimizer') 
-#    p_ = 31.40
-#    while p_ > 30.0:
-#       p_ -= 0.05
-#       rn.update(p={'V2_C-C-C-C': p_})
+
    rn.run(learning_rate=0.0001,step=1000,writelib=1000,close_session=True)
    rn.sess.close()
 
