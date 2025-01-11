@@ -5,7 +5,7 @@ ReaxFF-nn stands for Reactive Force Field (ReaxFF) with neural network bond-orde
 * The details of how to implement to GULP can be seen in "ReaxFFnnToGULP.md"
 * The The library file used with this work is named as "reaxff_nn.lib"
 
-Introductions about impliment the ReaxFF-nn to the LAMMPS package is available at:
+**Introductions about impliment the ReaxFF-nn to the LAMMPS package is available at:**
 https://github.com/fenggo/ReaxFF-nn_for_lammps.
 
 ## Refference
