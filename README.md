@@ -5,11 +5,11 @@ ReaxFF-nn stands for Reactive Force Field (ReaxFF) with neural network bond-orde
 * The details of how to implement to GULP can be seen in "ReaxFFnnToGULP.md"
 * The The library file used with this work is named as "reaxff_nn.lib"
 
-### Impliment the ReaxFF-nn to the LAMMPS package is available at:
+## Impliment the ReaxFF-nn to the LAMMPS package is available at:
 https://github.com/fenggo/ReaxFF-nn_for_lammps.
+
 ## Refference
 
-ReaxFF-nn: ReaxFF-nn: A Reactive Machine Learning Potential in GULP and the Applications in the Thermal Conductivity Calculation of Carbon
-Nanostructures, Feng Guo et al. (Submitted).
+ReaxFF-nn: A Reactive Machine Learning Potential in GULP/LAMMPS and the Applications in the Thermal Conductivity Calculations of Carbon Nanostructures, Feng Guo et al. (Submitted).
 
 
