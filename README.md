@@ -9,6 +9,7 @@ ReaxFF-nn stands for Reactive Force Field (ReaxFF) with neural network bond-orde
 https://github.com/fenggo/ReaxFF-nn_for_lammps.
 
 **Train the ReaxFF-nn:**
+
 https://github.com/fenggo/I-ReaxFF.
 
 ## Refference
